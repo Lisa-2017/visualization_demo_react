@@ -82,4 +82,4 @@ src
   - index.js 入口js
 
 
-可视化学习文档地址：https://www.yuque.com/lanluo2020/dnkzxs
+可视化学习文档地址：https://www.yuque.com/books/share/06bf27c6-ae1c-4f8e-a530-b70bdc8c4830?# 《可视化学习》
