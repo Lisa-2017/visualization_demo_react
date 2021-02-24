@@ -1,0 +1,12 @@
+.wraper {
+  width: 88%;
+  margin: 15px auto;
+  background-color: hsl(300, 80, 80);
+}
+
+.tc {
+  text-align: center;
+}
+.bg_black {
+  background-color: black;
+}
