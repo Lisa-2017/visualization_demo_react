@@ -74,9 +74,12 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 src
   - api ajax相关
   - assets 公共资源
-  - components 非留有组件
+  - components 非路由组件
   - config 配置
   - pages 路由组件
   - utils 工具组件
   - App.js 应用根组件
   - index.js 入口js
+
+
+可视化学习文档地址：https://www.yuque.com/books/share/06bf27c6-ae1c-4f8e-a530-b70bdc8c4830?# 《可视化学习》
