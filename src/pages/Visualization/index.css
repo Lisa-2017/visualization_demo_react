@@ -7,6 +7,9 @@
 .tc {
   text-align: center;
 }
+.bg_gray {
+  background-color: #eee;
+}
 .bg_black {
   background-color: black;
 }
