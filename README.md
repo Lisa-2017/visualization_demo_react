@@ -87,12 +87,18 @@ src
 
 
 Commit规范与发版日志
+
 参考Commit message 和 Change log 编写指南
 
+
 Commit规范
+
 项目采用简化格式，即：
+
 <type>(<scope>): <subject>
+
 在这三部分中，type是指commit 的类型，包括如下：
+
 
 feat: 新特性
 fix: 修改问题

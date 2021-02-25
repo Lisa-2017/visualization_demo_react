@@ -1,5 +1,10 @@
 const examples = [
   {
+    title: "00",
+    url: "/A00",
+    text: "00 | 用GPU来实现一个抽奖程序",
+  },
+  {
     title: "01",
     url: "/A01",
     text: "01 | 浏览器中实现可视化的四种方式",

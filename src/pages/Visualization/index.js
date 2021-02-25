@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import { examples } from "../Visualization/exampleList.js";
+import A00Example from "./components/A00Example";
 import A01Example from "./components/A01Example";
 import A02Example from "./components/A01Example";
 import A03Example from "./components/A01Example";
@@ -56,6 +57,7 @@ function Example(props) {
 }
 
 function AppRouter() {
+  const A00 = () => Example({ children: <A00Example /> });
   const A01 = () => Example({ children: <A01Example /> });
   const A02 = () => Example({ children: <A02Example /> });
   const A03 = () => Example({ children: <A03Example /> });
@@ -72,6 +74,7 @@ function AppRouter() {
       <h1 className="wraper"> 可视化案例列表 </h1>
       <Switch>
         <Route exact path="/" component={Index} />
+        <Route exact path="/A00" render={A00} />
         <Route exact path="/A01" render={A01} />
         <Route exact path="/A02" render={A02} />
         <Route exact path="/A03" render={A03} />
