@@ -83,3 +83,31 @@ src
 
 
 可视化学习文档地址：https://www.yuque.com/books/share/06bf27c6-ae1c-4f8e-a530-b70bdc8c4830?# 《可视化学习》
+
+
+
+Commit规范与发版日志
+参考Commit message 和 Change log 编写指南
+
+Commit规范
+项目采用简化格式，即：
+<type>(<scope>): <subject>
+在这三部分中，type是指commit 的类型，包括如下：
+
+feat: 新特性
+fix: 修改问题
+refactor: 代码重构
+docs: 文档修改
+style: 代码格式修改, 注意不是 css 修改
+test: 测试用例修改
+chore: 其他修改, 比如构建流程, 依赖管理.
+pref: 性能提升的修改
+build: 对项目构建或者依赖的改动
+ci: CI 的修改
+revert: revert 前一个 commit
+其次： scope: commit 影响的范围, 比如: route, component, utils, build... subject: commit 的概述, 比如新增XXX功能/XXbug修复完成等
+
+必须符合规范的Message才可以被提交，不符合规范的不允许提交
+
+发版日志
+发布新版时需要更新ChangeLog
